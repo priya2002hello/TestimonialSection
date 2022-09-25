@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +10,63 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+   height: 100%;
 }
+#Testimony { height: 100% }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+@media (max-width:991px){
+
+  html{
+      font-size: 55%;
+  }
+  
+
+  .Header{
+      padding:2rem;
+  }
+
+  section{
+      padding:2rem;
+  }
+
+
+}
+
+@media (max-width:768px)
+{
+  .Header .Nav{
+      position: absolute;
+      top:110%; right:-110%;
+      width:30rem;
+      border-radius: .5rem;
+      background: #fff;
+  }
+
+ 
+}
+
+@media (max-width:450px){
+
+  html{
+      font-size: 50%;
+  }
+
+  .Header{
+      font-size: 2.5rem;
+  }
+  .Header .Nav{
+    display: none;
+  }
+
+  .Footer{
+      text-align: center;
+  }
+
 }
