@@ -8,3 +8,8 @@ FrontEnd :
 <li>Swiper.js</li>
 <li>tailwind CSS</li>
 
+<img width="924" alt="image" src="https://user-images.githubusercontent.com/76547925/192136900-27c11b1d-9c84-47e0-8211-d608da92e955.png">
+
+To Run this Project On your Machine Follow Below steps:
+<li> In your terminal give command -> npm install
+<li> Once you install all dependencies , To start application give command -> npm run start
