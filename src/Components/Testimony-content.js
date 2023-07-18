@@ -1,5 +1,5 @@
 //Testimony Content Component
-import React, { useRef, useState } from "react";
+import React from "react";
 
 //import Testimonial Content 
 import CustomerReviewDetails from "./CustomerInfoTestimony";
